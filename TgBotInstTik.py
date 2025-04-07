@@ -8,7 +8,7 @@ from aiogram.filters import Command
 from aiogram.enums import ParseMode
 import yt_dlp
 
-TOKEN = "7531357371:AAFCcim-k6PuxYNMWOLHn4_Ss7JYgq9wBn8"
+TKEN = "7531357371:AAFCcim-k6PuxYNMWOLHn4_Ss7JYgq9wBn8"
 ADMIN_ID = "5743254515"
 
 bot = Bot(token=TOKEN)
