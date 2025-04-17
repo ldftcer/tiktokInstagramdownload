@@ -1,7 +1,0 @@
-yt-dlp
-aiogram
-pyTelegramBotAPI
-yt-dlp
-aiohttp
-psutil
-aiofiles
