@@ -487,7 +487,8 @@ async def handle_message(message: types.Message):
                 'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
                 'outtmpl': output_file,
                 'quiet': True,
-                'noplaylist': True
+                'noplaylist': True,
+                'cookies': 'instagram_cookies.txt'
             }
         else:  # TikTok and others
             if is_premium:
@@ -526,7 +527,8 @@ async def handle_message(message: types.Message):
                         'format': 'best',
                         'outtmpl': output_file,
                         'quiet': True,
-                        'noplaylist': True
+                        'noplaylist': True,
+                        'cookies': 'instagram_cookies.txt'
                     }
                     with yt_dlp.YoutubeDL(alternative_opts) as ydl:
                         ydl.download([url])
