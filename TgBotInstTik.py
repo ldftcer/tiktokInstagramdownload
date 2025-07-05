@@ -13,7 +13,7 @@ from aiogram.filters import Command
 from aiogram.enums import ParseMode
 import yt_dlp
 
-TOKEN = "7531357371:AAFCcim-k6PuxYNMWOLHn4_Ss7JYgq9wBn8"
+TOKEN = "8034904965:AAG9bo2Zjru7aq3Z2b0n51wf9LqPsH__mE0"
 ADMIN_ID = "5743254515"
 ADMIN_USERNAME = "ldftcer"
 BACKUP_CHAT_ID = "-100123456789"
